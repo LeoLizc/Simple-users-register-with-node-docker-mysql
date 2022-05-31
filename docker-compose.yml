@@ -1,0 +1,27 @@
+# docker compose
+# set up a node web server service
+version: '3'
+services:
+  web-server:
+    container_name: web-server
+    build:
+      context: ./web
+    volumes:
+      - ./web/src:/app/src
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    restart: on-failure:5
+  
+  # set up a mysql database service
+  db:
+    image: mysql:5.7
+    container_name: database
+    environment:
+      MYSQL_ROOT_PASSWORD: "pass123"
+      MYSQL_DATABASE: "my_db"
+    restart: always
+    # volumes for mysql startup scripts
+    volumes:
+      - ./database/Scripts:/docker-entrypoint-initdb.d
