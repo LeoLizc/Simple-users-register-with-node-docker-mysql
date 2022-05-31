@@ -26,7 +26,7 @@ O en su defecto puede usar la ruta al host de la manera:
     
 **A su vez contamos con diferentes rutas y servicios http**
 ---
-- [Verificar conexión](https://github.com/LeoLizc/Simple-users-register-with-node-docker-mysql/edit/master/readme.md#verificar-conexi%C3%B3n-a-la-base-de-datos)
+- [Verificar conexión](#verificar-conexi%C3%B3n-a-la-base-de-datos)
 - [Agregar un usuario](https://github.com/LeoLizc/Simple-users-register-with-node-docker-mysql/edit/master/readme.md#agregar-un-usuario-a-la-base-de-datos)
 - [Eliminar todos los usuarios](https://github.com/LeoLizc/Simple-users-register-with-node-docker-mysql/edit/master/readme.md#eliminar-todos-los-usuarios-de-la-base-de-datos)
 - [Listar usuarios](https://github.com/LeoLizc/Simple-users-register-with-node-docker-mysql/edit/master/readme.md#listar-en-formato-json-todos-los-usuarios-de-la-base-de-datos)
