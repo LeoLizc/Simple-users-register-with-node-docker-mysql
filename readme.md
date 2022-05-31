@@ -27,10 +27,10 @@ O en su defecto puede usar la ruta al host de la manera:
 **A su vez contamos con diferentes rutas y servicios http**
 ---
 - [Verificar conexión](#verificar-conexi%C3%B3n-a-la-base-de-datos)
-- [Agregar un usuario](https://github.com/LeoLizc/Simple-users-register-with-node-docker-mysql/edit/master/readme.md#agregar-un-usuario-a-la-base-de-datos)
-- [Eliminar todos los usuarios](https://github.com/LeoLizc/Simple-users-register-with-node-docker-mysql/edit/master/readme.md#eliminar-todos-los-usuarios-de-la-base-de-datos)
-- [Listar usuarios](https://github.com/LeoLizc/Simple-users-register-with-node-docker-mysql/edit/master/readme.md#listar-en-formato-json-todos-los-usuarios-de-la-base-de-datos)
-- [Agregar varios usuarios](https://github.com/LeoLizc/Simple-users-register-with-node-docker-mysql/edit/master/readme.md#agregar-varios-usuarios-a-la-base-de-datos-enviador-en-formato-json)
+- [Agregar un usuario](#agregar-un-usuario-a-la-base-de-datos)
+- [Eliminar todos los usuarios](#eliminar-todos-los-usuarios-de-la-base-de-datos)
+- [Listar usuarios](#listar-en-formato-json-todos-los-usuarios-de-la-base-de-datos)
+- [Agregar varios usuarios](#agregar-varios-usuarios-a-la-base-de-datos-enviador-en-formato-json)
 
 ### Verificar conexión a la base de datos
 Se pude realizar una solicitud para saber si el servidor se encuentra conectado satisfactoriamente a la base de datos a través de una petición `get` a la ruta `/api/`
