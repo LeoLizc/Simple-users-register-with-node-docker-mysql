@@ -15,5 +15,5 @@ COPY . .
 EXPOSE 3000
 
 # execute express
-# CMD ["npm", "run", "dev"]
-CMD ["npm", "run", "cont"]
+CMD ["npm", "start"]
+# CMD ["npm", "run", "cont"]
