@@ -83,3 +83,9 @@ POST - POST - http://localhost:3000/api/
   "nrc": "4561"
 }, ...]
 ```
+
+## Autores ✒️
+
+* **Leonardo Lizcano**
+* **Breynner Hurtado** 
+* **Vanessa Fontalvo** 
